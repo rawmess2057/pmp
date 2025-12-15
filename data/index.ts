@@ -13,7 +13,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/client.png",
     spareImg: "",
   },
   {
@@ -73,42 +73,50 @@ export const projects = [
   {
     id: 1,
     title: "Digitl Palika",
-    des: "Only government ERP in Nepal.",
+    des: "The only ERP system in Nepal that helps local governments in financial, strategic, and overall decision-making for a better tomorrow with the help of Digital Palika..",
     img: "/digitalpalika.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/recruitnepal.com",
+    link: "/digitalpalika.org/",
   },
   {
     id: 2,
     title: "Ratopati ",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    des: "Ratopati is Nepal's leading online news portal, delivering up-to-the-minute news coverage, in-depth analysis, and engaging multimedia content to keep readers informed and connected.",
     img: "/ratopati.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://english.ratopati.com/",
   },
   {
     id: 3,
     title: "Recruit Nepal",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    des: "Transforming job searches into successful careers.",
     img: "/recruitnepal.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://recruitnepal.com/",
   },
   {
     id: 4,
     title: "DoNIDCR",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    des: "Vital event registration including birth,death,marriage, divorce and migration.",
     img: "/donidcr.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://play.google.com/store/apps/details?id=com.donidcr.panjikaran",
+  },
+  {
+    id: 6,
+    title: "PopUp",
+    des: "AI news summarized in 60 words.",
+    img: "/pop up.webp",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://play.google.com/store/apps/details?id=com.donidcr.panjikaran",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
+      "Collaborating with Raw was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ramesh is the ideal partner.",
+    name: "Saurav adhikari",
     title: "Director of AlphaStream Technologies",
   },
   {
