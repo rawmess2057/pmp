@@ -190,14 +190,14 @@ export const workExperience = [
     title: "Project Manager - kumari Bank",
     desc: "Successfully led the end-to-end Document Digitization project, converting over 3.2 million physical records into a secure, accessible digital archive, significantly improving operational efficiency and audit readiness",
     className: "md:col-span-1",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/Kumari.webp",
   },
   {
     id: 2,
     title: "Project Manager - Mindrisers Tech",
     desc: "Manages mobile app, Webapp and complex ERP systemsLed cross-functional teams  through the full SDLC for multiple B2B, B2G SaaS applications, ensuring 95% on-time delivery using Scrum/Agile methodologies.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "/logo.webp",
   },
   /*{
     id: 3,
