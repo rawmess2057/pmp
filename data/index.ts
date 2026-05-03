@@ -193,6 +193,7 @@ export const workExperience = [
     desc: "Successfully led the end-to-end Document Digitization project, converting over 3.2 million physical records into a secure, accessible digital archive, significantly improving operational efficiency and audit readiness",
     className: "md:col-span-1",
     thumbnail: "/Kumari.webp",
+    link: "https://www.kumaribank.com/en/personal-banking",
   },
   {
     id: 2,
@@ -200,21 +201,16 @@ export const workExperience = [
     desc: "Manages mobile app, Webapp and complex ERP systemsLed cross-functional teams  through the full SDLC for multiple B2B, B2G SaaS applications, ensuring 95% on-time delivery using Scrum/Agile methodologies.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/logo.webp",
+    link: "https://mindriserstech.com/",
   },
-  /*{
+   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Project Manager - SB GLOBAL",
+    desc: "Lead Webapp and complex ERP systemsLed cross-functional teams  through the full SDLC for multiple B2B, B2G SaaS applications, delivered 4 webbsies within 6 months using Scrum/Agile methodologies.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "/sb.png",
+    link: "https://sbglobalventure.com/",
   },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },*/
 ];
 
 export const socialMedia = [

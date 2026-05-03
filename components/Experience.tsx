@@ -13,6 +13,10 @@ const Experience = () => {
       <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
         {workExperience.map((card) => (
           <Button
+            as="a"
+            href={card.link}
+            target="_blank"
+            rel="noopener noreferrer"
             key={card.id}
             //   random duration will be fun , I think , may be not
             duration={Math.floor(Math.random() * 10000) + 10000}
