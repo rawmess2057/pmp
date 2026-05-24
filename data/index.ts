@@ -189,27 +189,35 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
+    title: "Project Manager - Mindrisers Tech",
+    desc: "Managed mobile app, Webapp and complex ERP systems. Led cross-functional teams through the full SDLC for multiple B2B, B2G SaaS applications.",
+    date: "2025 - present",
+    thumbnail: "/logo.webp",
+    link: "https://mindriserstech.com/",
+  },
+  {
+    id: 2,
+    title: "Project Manager - SB GLOBAL",
+    desc: "Led Webapp and complex ERP systems. Delivered 4 websites within 6 months using Scrum/Agile methodologies.",
+    date: "2025 - 2026",
+    thumbnail: "/sb.png",
+    link: "https://sbglobalventure.com/",
+  },
+  {
+    id: 3,
     title: "Project Manager - kumari Bank",
-    desc: "Successfully led the end-to-end Document Digitization project, converting over 3.2 million physical records into a secure, accessible digital archive, significantly improving operational efficiency and audit readiness",
-    className: "md:col-span-1",
+    desc: "Successfully led the end-to-end Document Digitization project, converting over 3.2 million physical records into a secure, accessible digital archive.",
+    date: "2023 - 2025",
     thumbnail: "/Kumari.webp",
     link: "https://www.kumaribank.com/en/personal-banking",
   },
   {
-    id: 2,
-    title: "Project Manager - Mindrisers Tech",
-    desc: "Manages mobile app, Webapp and complex ERP systemsLed cross-functional teams  through the full SDLC for multiple B2B, B2G SaaS applications, ensuring 95% on-time delivery using Scrum/Agile methodologies.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/logo.webp",
-    link: "https://mindriserstech.com/",
-  },
-   {
-    id: 3,
-    title: "Project Manager - SB GLOBAL",
-    desc: "Lead Webapp and complex ERP systemsLed cross-functional teams  through the full SDLC for multiple B2B, B2G SaaS applications, delivered 4 webbsies within 6 months using Scrum/Agile methodologies.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/sb.png",
-    link: "https://sbglobalventure.com/",
+    id: 4,
+    title: "Junior Developer - Tivra institute",
+    desc: "Contributed to full-stack development of internal tools and client-facing dashboards using modern JavaScript frameworks.",
+    date: "2020 - 2021",
+    thumbnail: "/exp2.svg",
+    link: "#",
   },
 ];
 
