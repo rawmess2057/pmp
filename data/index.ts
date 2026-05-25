@@ -82,20 +82,38 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Ratopati ",
-    des: "Ratopati is Nepal's leading online news portal, delivering up-to-the-minute news coverage, in-depth analysis, and engaging multimedia content to keep readers informed and connected.",
-    img: "/ratopati.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://english.ratopati.com/",
-  },
-  {
-    id: 3,
     title: "Recruit Nepal",
     des: "Transforming job searches into successful careers.",
     img: "/recruitnepal.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://recruitnepal.com/",
   },
+  {
+    id: 3,
+    title: "Tukee Foundation",
+    des: "A non-profit and non-governmental organization based in Nepal.",
+    img: "/tukeesss.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://tukee.org.np/",
+  },
+  {
+    id: 4,
+    title: "SB Global",
+    des: "SB Global is a leading technology company specializing in innovative solutions for businesses worldwide.",
+    img: "/sbweb.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://sbglobalventure.com/",
+  },
+
+  {
+    id: 6,
+    title: "Ratopati ",
+    des: "Ratopati is Nepal's leading online news portal, delivering up-to-the-minute news coverage, in-depth analysis, and engaging multimedia content to keep readers informed and connected.",
+    img: "/ratopati.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "https://english.ratopati.com/",
+  },
+  
   {
     id: 4,
     title: "DoNIDCR",
@@ -105,13 +123,14 @@ export const projects = [
     link: "https://play.google.com/store/apps/details?id=com.donidcr.panjikaran",
   },
   {
-    id: 6,
+    id: 5,
     title: "PopUp",
     des: "AI news summarized in 60 words.",
     img: "/pop up.webp",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://play.google.com/store/apps/details?id=com.donidcr.panjikaran",
   },
+  
 ];
 
 export const testimonials = [
@@ -119,29 +138,29 @@ export const testimonials = [
     quote:
       "Collaborating with Raw was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ramesh is the ideal partner.",
     name: "Saurav adhikari",
-    title: "Director of AlphaStream Technologies",
+    title: "Recruit Nepal",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Raw was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+    name: "Savitri Rajaili",
+    title: "Tukee Foundation",
+  },
+  {
+    quote:
+      "Collaborating with Ramesh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+    name: "Pushpa Shah",
+    title: "She&ME Entertainment",
+  },
+  {
+    quote:
+      "Collaborating with Ramesh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Ramesh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
@@ -198,7 +217,7 @@ export const workExperience = [
   {
     id: 2,
     title: "Project Manager - SB GLOBAL",
-    desc: "Led Webapp and complex ERP systems. Delivered 4 websites within 6 months using Scrum/Agile methodologies.",
+    desc: "Led the development and deployment of 4 websites within 6 months using Scrum/Agile methodologies.",
     date: "2025 - 2026",
     thumbnail: "/sb.png",
     link: "https://sbglobalventure.com/",
