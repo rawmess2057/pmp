@@ -136,33 +136,38 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Raw was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ramesh is the ideal partner.",
-    name: "Saurav adhikari",
+      "Raw delivered an exceptional job platform for us. His deep understanding of our recruitment needs translated into a seamless user experience. Professional, responsive, and truly talented — highly recommend him for any web development project.",
+    name: "Saurav Adhikari",
     title: "Recruit Nepal",
+    avatar: "https://ui-avatars.com/api/?name=Saurav+Adhikari&background=7c3aed&color=fff&size=40",
   },
   {
     quote:
-      "Collaborating with Raw was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Working with Raw was a fantastic experience. He built our nonprofit's website with care and precision, capturing our mission perfectly. His ability to balance aesthetics with functionality made all the difference. A true professional.",
     name: "Savitri Rajaili",
     title: "Tukee Foundation",
+    avatar: "https://ui-avatars.com/api/?name=Savitri+Rajaili&background=0ea5e9&color=fff&size=40",
   },
   {
     quote:
-      "Collaborating with Ramesh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Raw brought our entertainment brand to life online. He understood our creative vision instantly and executed flawlessly. From concept to launch, the process was smooth and the result exceeded our expectations.",
     name: "Pushpa Shah",
     title: "She&ME Entertainment",
+    avatar: "https://ui-avatars.com/api/?name=Pushpa+Shah&background=f59e0b&color=fff&size=40",
   },
   {
     quote:
-      "Collaborating with Ramesh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Raw developed a robust digital presence for our campus. His technical expertise and project management skills ensured everything was delivered on time and within scope. A reliable partner for any institutional project.",
+    name: "Umanga Pathak",
+    title: "Kathmandu Business Campus",
+    avatar: "https://ui-avatars.com/api/?name=Umanga+Pathak&background=10b981&color=fff&size=40",
   },
   {
     quote:
-      "Collaborating with Ramesh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Raw built the Popup app with incredible attention to detail. He took our AI news concept and turned it into a polished, user-friendly product. His ability to handle complex requirements while keeping the UI simple is remarkable.",
+    name: "Pranjal Timilsina",
+    title: "Popup",
+    avatar: "https://ui-avatars.com/api/?name=Pranjal+Timilsina&background=ef4444&color=fff&size=40",
   },
 ];
 
