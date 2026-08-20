@@ -8,14 +8,16 @@ import { InfiniteMovingCards } from "./ui/InfiniteCards";
 const Clients = () => {
   return (
     <section id="testimonials" className="py-20">
+      <p className="section-label mb-4 text-center">
+        <span className="text-lime/70">//</span> testimonials
+      </p>
       <h1 className="heading">
         Kind words from
-        <span className="text-purple"> satisfied clients</span>
+        <span className="text-gradient"> satisfied clients</span>
       </h1>
 
       <div className="flex flex-col items-center max-lg:mt-10">
         <div
-          // remove bg-white dark:bg-black dark:bg-grid-white/[0.05], h-[40rem] to 30rem , md:h-[30rem] are for the responsive design
           className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden"
         >
           <InfiniteMovingCards
@@ -34,7 +36,9 @@ const Clients = () => {
                   alt={company.name}
                   className="md:w-10 w-5"
                 />
-               
+                <span className="font-mono text-xs text-white/40 self-center">
+                  {company.name}
+                </span>
               </div>
             </React.Fragment>
           ))}

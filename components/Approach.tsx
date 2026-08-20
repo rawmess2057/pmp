@@ -3,41 +3,38 @@ import React from "react";
 const Approach = () => {
   return (
     <section className="w-full py-20">
+      <p className="section-label mb-4 text-center">
+        <span className="text-lime/70">//</span> how I build
+      </p>
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+        My <span className="text-gradient">approach</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
           title=""
-          icon={<AceternityIcon order="Planning" />}
-          des="I defined the project scope and established a budget then scheduled so many mandatory meetings that Dwight had to create a color-coded binder just to track them. My job here is to generate a comprehensive plan and ensure everyone feels heard before I tell them what we're actually going to do."
+          icon={<AceternityIcon order="Design" />}
+          des="Every great dApp starts with a clear design. I sketch the data model, map out on-chain vs. off-chain logic, and define the program architecture — accounts, PDAs and instructions — before a single line of Rust is written. This is where security is planned in, not bolted on."
           bgColor="bg-emerald-900"
         />
         <Card
           title=""
-          icon={<AceternityIcon order="Design & Prototyping" />}
-          des="	I act as the highly-paid interpreter between the client's bad, unsolicited ideas about fonts and the design team's quiet artistic superiority, managing the feedback loop to secure final sign-off. This phase is 80% emotional support and 20% making sure the user interface doesn't accidentally look like Michael Scott's desktop background."
+          icon={<AceternityIcon order="Build" />}
+          des="I write Solana programs with Rust and Anchor, structuring smart contracts around clear instruction logic and robust account validation. Off-chain, I build the frontends and clients that let users actually interact with the chain — dApps are nothing without a great UX."
           bgColor="bg-pink-900"
         />
         <Card
           title=" "
-          icon={<AceternityIcon order="Development" />}
-          des="I manage the developers, who are brilliant but need a constant reminder that they are building a product, not a secret spaceship, preventing all attempts at unauthorized 'cool' features (scope creep). I run the daily stand-up, which is essentially just a 15-minute meeting that should have been an email, to track progress and clear technical roadblocks."
+          icon={<AceternityIcon order="Test & Audit" />}
+          des="DeFi means the stakes are real. I write comprehensive tests for every program — happy paths, edge cases, and the attacks I know are coming. I run through security checklists, review access control and reentrancy risks, and iterate until the code is battle-tested."
           bgColor="bg-sky-600"
         />
         <Card
           title=""
-          icon={<AceternityIcon order="Testing" />}
-          des="I coordinate the entire Quality Assurance (QA) effort, which is where we pay people to meticulously tell us that we failed, and then I manage the excruciating defect log with the development team. My sole purpose is to get a perfect score—or at least an 'acceptable' score—so that we don't embarrass ourselves on launch day.."
+          icon={<AceternityIcon order="Deploy" />}
+          des="From devnet to mainnet — I handle program deployment, keypair management and initialization. Then I verify on-chain with explorer tools and make sure everything runs as expected after the first real transactions hit the network."
           bgColor="bg-pink-900"
-        />
-        <Card
-          title=""
-          icon={<AceternityIcon order="Deployment" />}
-          des="II orchestrate the entire 'Go-Live' event—the Super Bowl of midnight server work—ensuring the technical teams are coordinated and ready to execute the flawless launch I planned. After we successfully flip the switch, I immediately send the really important 'It's Live!' email to the entire company.."
-          bgColor="bg-sky-600"
         />
       </div>
     </section>
@@ -60,13 +57,8 @@ const Card = ({
 }) => {
   return (
     <div
-      className="border border-black/[0.2] group/canvas-card flex items-center justify-center
-       dark:border-white/[0.2]  max-w-sm w-full mx-auto p-4 relative lg:h-[35rem] rounded-3xl"
-      style={{
-        background: "rgb(4,7,29)",
-        backgroundColor:
-          "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
-      }}
+      className="glass border border-white/[0.08] group/canvas-card flex items-center justify-center
+       max-w-sm w-full mx-auto p-4 relative lg:h-[35rem] rounded-3xl"
     >
       <div className={`absolute inset-0 rounded-3xl opacity-0 group-hover/canvas-card:opacity-100 transition duration-200 ${bgColor}`} />
       {/* change to h-10 w-10 , add opacity-30  */}
@@ -116,11 +108,11 @@ const AceternityIcon = ({ order }: { order: string }) => {
       <button className="relative inline-flex overflow-hidden rounded-full p-[1px] ">
         <span
           className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite]
-         bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"
+         bg-[conic-gradient(from_90deg_at_50%_50%,#C6F24E_0%,#3a3a44_50%,#C6F24E_100%)]"
         />
         <span
           className="inline-flex h-full w-full cursor-pointer items-center 
-        justify-center rounded-full bg-slate-950 px-5 py-2 text-purple backdrop-blur-3xl font-bold text-2xl"
+        justify-center rounded-full bg-[#0a0a12] px-5 py-2 text-lime font-mono backdrop-blur-3xl font-bold text-xl"
         >
           {order}
         </span>

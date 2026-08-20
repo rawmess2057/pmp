@@ -4,7 +4,10 @@ import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
 const Grid = () => {
   return (
     <section id="about">
-      <BentoGrid className="w-full py-20">
+      <p className="section-label text-center pt-20 pb-2">
+        <span className="text-lime/70">//</span> about me
+      </p>
+      <BentoGrid className="w-full py-16">
         {gridItems.map((item, i) => (
           <BentoGridItem
             id={item.id}

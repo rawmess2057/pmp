@@ -1,5 +1,3 @@
-import { url } from "inspector";
-
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -10,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I prioritize collaboration, fostering open communication within DAOs and open-source communities",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -40,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for Tech & Finance.",
+    title: "Tech enthusiast with a passion for Blockchain & DeFi.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -51,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a CMS (Contract Management System) for Municipalities.",
+    title: "Currently building on Solana with Rust & Anchor.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -78,7 +76,7 @@ export const projects = [
     des: "The only ERP system in Nepal that helps local governments in financial, strategic, and overall decision-making for a better tomorrow with the help of Digital Palika..",
     img: "/digitalpalika.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/digitalpalika.org/",
+    link: "https://digitalpalika.org/",
   },
   {
     id: 2,
@@ -97,7 +95,7 @@ export const projects = [
     link: "https://tukee.org.np/",
   },
   {
-    id: 4,
+    id: 5,
     title: "SB Global",
     des: "SB Global is a leading technology company specializing in innovative solutions for businesses worldwide.",
     img: "/sbweb.png",
@@ -115,7 +113,7 @@ export const projects = [
   },
   
   {
-    id: 4,
+    id: 7,
     title: "DoNIDCR",
     des: "Vital event registration including birth,death,marriage, divorce and migration.",
     img: "/donidcr.png",
@@ -123,7 +121,7 @@ export const projects = [
     link: "https://play.google.com/store/apps/details?id=com.donidcr.panjikaran",
   },
   {
-    id: 5,
+    id: 8,
     title: "PopUp",
     des: "AI news summarized in 60 words.",
     img: "/pop up.webp",
@@ -174,53 +172,63 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "Jira",
-    img: "/jira-3.svg",
-    //nameImg: "",
+    name: "Solana",
+    img: "/solana.svg",
   },
   {
     id: 2,
-    name: "Slack",
-    img: "/slack.svg",
-    nameImg: "",
+    name: "Rust",
+    img: "/rust.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/git.svg",
-    nameImg: "/githubt.svg",
+    name: "Anchor",
+    img: "/anchor.svg",
   },
   {
     id: 4,
-    name: "figma",
-    img: "/figma.svg",
-    nameImg: "/figmatext.svg",
+    name: "TypeScript",
+    img: "/ts.svg",
   },
   {
     id: 5,
-    name: "clickup.",
-    img: "/clicku.svg",
-    
+    name: "React",
+    img: "/re.svg",
   },
   {
     id: 6,
-    name: "odoo.",
-    img: "/odoo.svg",
-    
+    name: "Git",
+    img: "/git.svg",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
+    title: "Contributor - Superteam Nepal",
+    desc: "Building on Solana within one of the most active web3 communities in the region. Working on bounties, hackathons and open-source Solana programs.",
+    date: "2025 - present",
+    thumbnail: "/logo.webp",
+    link: "https://superteamnepal.com/",
+  },
+  {
+    id: 2,
+    title: "Blockchain & Web3 Developer - Freelance",
+    desc: "Developing smart contracts and dApps on Solana using Rust & Anchor, from program design through deployment.",
+    date: "2025 - present",
+    thumbnail: "/exp3.svg",
+    link: "#",
+  },
+  {
+    id: 3,
     title: "Project Manager - Mindrisers Tech",
     desc: "Managed mobile app, Webapp and complex ERP systems. Led cross-functional teams through the full SDLC for multiple B2B, B2G SaaS applications.",
-    date: "2025 - present",
+    date: "2025",
     thumbnail: "/logo.webp",
     link: "https://mindriserstech.com/",
   },
   {
-    id: 2,
+    id: 4,
     title: "Project Manager - SB GLOBAL",
     desc: "Led the development and deployment of 4 websites within 6 months using Scrum/Agile methodologies.",
     date: "2025 - 2026",
@@ -228,7 +236,7 @@ export const workExperience = [
     link: "https://sbglobalventure.com/",
   },
   {
-    id: 3,
+    id: 5,
     title: "Project Manager - kumari Bank",
     desc: "Successfully led the end-to-end Document Digitization project, converting over 3.2 million physical records into a secure, accessible digital archive.",
     date: "2023 - 2025",
@@ -236,13 +244,33 @@ export const workExperience = [
     link: "https://www.kumaribank.com/en/personal-banking",
   },
   {
-    id: 4,
+    id: 6,
     title: "Junior Developer - Tivra institute",
     desc: "Contributed to full-stack development of internal tools and client-facing dashboards using modern JavaScript frameworks.",
     date: "2020 - 2021",
     thumbnail: "/exp2.svg",
     link: "#",
   },
+];
+
+export const stats = [
+  { value: 7, suffix: "+", label: "Projects delivered" },
+  { value: 6, suffix: "+", label: "Years in tech" },
+  { value: 2, suffix: "", label: "Solana programs" },
+  { value: 1, suffix: "", label: "Web3 community (Superteam Nepal)" },
+];
+
+export const marqueeItems = [
+  "Solana",
+  "Rust",
+  "Anchor",
+  "TypeScript",
+  "React",
+  "Web3",
+  "Smart Contracts",
+  "dApps",
+  "DeFi",
+  "Superteam",
 ];
 
 export const socialMedia = [

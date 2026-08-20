@@ -16,13 +16,15 @@ const Footer = () => {
       </div>
 
       <div className="flex flex-col items-center">
+        <p className="section-label mb-4">
+          <span className="text-lime/70">$</span> get in touch
+        </p>
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
+          Ready to take <span className="text-gradient">your</span> digital
           presence to the next level?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals.
+          Have a dApp idea, a bounty, or a Solana project? Let&apos;s talk.
         </p>
         <a href="mailto:rawmesskdl2000@gmail.com">
           <MagicButton
@@ -33,8 +35,8 @@ const Footer = () => {
         </a>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2024 RA
+        <p className="md:text-base text-sm md:font-normal font-light font-mono text-white/40">
+          © 2026 raw — built on the decentralized future
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">

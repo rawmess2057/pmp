@@ -26,10 +26,13 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        mono: ["var(--font-mono)", "ui-monospace", "monospace"],
+      },
       colors: {
         black: {
           DEFAULT: "#000",
-          100: "#000319",
+          100: "#05050a",
           200: "rgba(17, 25, 40, 0.75)",
           300: "rgba(255, 255, 255, 0.125)",
         },
@@ -42,6 +45,7 @@ const config = {
           "100": "#E4ECFF",
         },
         purple: "#CBACF9",
+        lime: "#C6F24E",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -89,6 +93,28 @@ const config = {
         "accordion-up": {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
+        },
+        aurora: {
+          "0%, 100%": { transform: "translate(0, 0) scale(1)" },
+          "33%": { transform: "translate(4%, -6%) scale(1.08)" },
+          "66%": { transform: "translate(-4%, 5%) scale(0.94)" },
+        },
+        float: {
+          "0%, 100%": { transform: "translateY(0px)" },
+          "50%": { transform: "translateY(-12px)" },
+        },
+        "gradient-pan": {
+          "0%": { backgroundPosition: "0% 50%" },
+          "50%": { backgroundPosition: "100% 50%" },
+          "100%": { backgroundPosition: "0% 50%" },
+        },
+        blink: {
+          "0%, 49%": { opacity: "1" },
+          "50%, 100%": { opacity: "0" },
+        },
+        marquee: {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-50%)" },
         },
         spotlight: {
           "0%": {
@@ -150,6 +176,11 @@ const config = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        aurora: "aurora 18s ease-in-out infinite",
+        float: "float 6s ease-in-out infinite",
+        "gradient-pan": "gradient-pan 6s ease infinite",
+        blink: "blink 1.1s step-end infinite",
+        marquee: "marquee 30s linear infinite",
         spotlight: "spotlight 2s ease .75s 1 forwards",
         shimmer: "shimmer 2s linear infinite",
         first: "moveVertical 30s ease infinite",

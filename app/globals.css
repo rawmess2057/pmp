@@ -82,4 +82,48 @@
   .heading {
     @apply font-bold text-4xl md:text-5xl text-center;
   }
+
+  .glass {
+    @apply bg-white/[0.03] backdrop-blur-xl border border-white/[0.08];
+  }
+
+  .glass-card {
+    @apply bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] hover:border-lime/25 transition-colors duration-300;
+  }
+
+  .text-glow {
+    text-shadow: 0 0 18px rgba(198, 242, 78, 0.35), 0 0 60px rgba(198, 242, 78, 0.12);
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-white via-white/80 to-lime/80;
+  }
+
+  .section-label {
+    @apply font-mono text-xs uppercase tracking-[0.3em] text-white/40 md:text-sm;
+  }
+}
+
+@layer base {
+  ::selection {
+    background: rgba(198, 242, 78, 0.25);
+    color: #fff;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #05050a;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 8px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(198, 242, 78, 0.35);
+  }
 }
